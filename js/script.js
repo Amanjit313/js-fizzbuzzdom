@@ -23,13 +23,13 @@ for (let i = 1; i <= 100; i++){
 
   if(i % 15 == 0){
     boxEl.classList.add("box-trecinque");
-    boxEl.textContent= "Dom";
+    boxEl.textContent = "FizzBuzz";
   } else if(i % 3 == 0){
     boxEl.classList.add("box-tre");
-    boxEl.textContent= "Fizz";
+    boxEl.textContent = "Fizz";
   } else if(i % 5 == 0){
     boxEl.classList.add("box-cinque");
-    boxEl.textContent= "Buzz";
+    boxEl.textContent = "Buzz";
   }
 
   container.append(boxEl);
